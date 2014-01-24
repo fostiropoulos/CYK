@@ -3,8 +3,8 @@ CYK implemented in Java
 Description:
 
 The project is based on the requirements set by Dr. Mitra within his Syllabus. We were asked
-to “write a program, for an input CFG, and then a string, be ready to generate/reject the
-later”. The objective of the program was to create a string parser given a Context Free
+to ï¿½write a program, for an input CFG, and then a string, be ready to generate/reject the
+laterï¿½. The objective of the program was to create a string parser given a Context Free
 Grammar. A string parser is a program used by compilers to identify program syntax and be
 able to convert the given program to machine code. Application of string parsers can be
 found on Artificial Intelligence where the natural language is converted into digital
@@ -55,7 +55,7 @@ Chomsky Normal Form to Context Free Grammar [2]
 productions.
 2. Replace any rule that has three or more nonterminals with the equivalent rules of size
 two.
-3. Replace every rule S with S’. Add a new rule S?S’
+3. Replace every rule S with Sï¿½. Add a new rule S?Sï¿½
 4. Remove all epsilon transitions by iterating their equivalent form. For each production
 that includes a terminal that is equal to epsilon, add another rule equal to the initial
 rule excluding the terminal that is equal to epsilon.
@@ -97,8 +97,8 @@ Also note that the documented input format is CNF, according to the specificatio
 we could input a language in any format. But we tried to go the extra mile and make it better. 
 
 Refferences:
-[1] Lange, Martin, and Hans Leiß. "To CNF or Not to CNF? An Efficient Yet Presentable
-Version of the CYK Algorithm." Thesis.Ludwig-Maximilians-Universit¨atM¨unchen,
+[1] Lange, Martin, and Hans Leiï¿½. "To CNF or Not to CNF? An Efficient Yet Presentable
+Version of the CYK Algorithm." Thesis.Ludwig-Maximilians-Universitï¿½atMï¿½unchen,
 Germany, 2009. To CNF or Not to CNF? An Efficient Yet Presentable Version of the CYK
 Algorithm. Http://www.informatica-didactica.de, 29 June 2009. Web.6 Apr. 2013.
 [2] Cole, Richard. "Converting CFGs to CNF (Chomsky Normal Form)." - Chomsky
