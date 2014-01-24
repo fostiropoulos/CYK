@@ -86,6 +86,12 @@ cyk.class
 
 to compile use java or eclipse. 
 
+###Examples of Use
+
+![Alt text](http://s24.postimg.org/e2xfdq7md/Untitled_4.png "Grammar Example")
+![Alt text](http://s24.postimg.org/56mn9sh05/Untitled_5.png "Grammar Example")
+![Alt text](http://s24.postimg.org/fff4fm51x/Untitled_6.png "Grammar Example")
+
 
 ##IMPORANT 
 Because CYK relies on the final symbols to determine if the string belongs or not to the Language
@@ -96,7 +102,7 @@ Try compiling by comenting out the step5 and uncommenting step5v2 if that doesn'
 
 If a symbol is on the final cell it might be the final so assume string is accepted. 
 
-Also note that the documented input format is CNF, according to the specifications provided by the professor,
+Also note that the documented input format is CNF, according to the specifications provided,
 we could input a language in any format. But we tried to go the extra mile and make it better. 
 
 ##Refferences
