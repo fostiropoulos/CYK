@@ -15,8 +15,6 @@ our program.
 The scope of our program is defined by the inputs and the outputs. After research we
 concluded that the simplest grammar to use as input is CNF (Chomsky Normal Form).
 
-![Alt text](http://s16.postimg.org/4lykdyfhd/Untitled_2.png "Grammar Example")
-
 It is simple to understand and parse. We also realized that most of the Context Free
 Grammar that Dr. Mitra would ask us to input would be invalid or too hard to convert to
 CNF. Furthermore we made a grammar converter that would convert any Context Free
