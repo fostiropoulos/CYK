@@ -1,6 +1,6 @@
-#CYK implemented in Java
+# CYK implemented in Java
 
-##Description
+## Description
 
 The project is based on the requirements set by Dr. Mitra within his Syllabus. We were asked
 to write a program, for an input CFG, and then a string, be ready to generate/reject the
@@ -30,9 +30,9 @@ a series of steps it is converted to the starting symbol S. At the end of the ta
 conclusion of whether or not the string belongs to the language described by the Context
 Free Grammar.
 
-##Algorithm PseudoCode
+## Algorithm PseudoCode
 
-###CYK [1]
+### CYK [1]
 
 	let the input be a string S consisting of n characters: a1 ... an.
 	let the grammar contain r nonterminal symbols R1 ... Rr.
@@ -64,13 +64,13 @@ Free Grammar.
 	rule excluding the terminal that is equal to epsilon.
 	5. Remove all the unit rules of the form A ? B
 
-##Issues
+## Issues
 
 The project is not completely finished. Step 5 of Chomsky Normal form converter algorithm, a not so crucial but important step
 for the algorithm, is not working. Step 5 is reponsible for simplifying the grammar to
 match CNF format. 
 
-##How-to-use
+## How-to-use
 
 Move grammars to executables folder and rename them to grammar.txt
 
@@ -86,14 +86,14 @@ cyk.class
 
 to compile use java or eclipse. 
 
-###Examples of Use
+### Examples of Use
 
 ![Alt text](http://s24.postimg.org/e2xfdq7md/Untitled_4.png "Grammar Example")
 ![Alt text](http://s24.postimg.org/56mn9sh05/Untitled_5.png "Grammar Example")
 ![Alt text](http://s24.postimg.org/fff4fm51x/Untitled_6.png "Grammar Example")
 
 
-##IMPORANT 
+## IMPORANT 
 Because CYK relies on the final symbols to determine if the string belongs or not to the Language
 it is possible that the final symbol is there but not recognized by the CYK because of the lack
 of step 5. 
@@ -105,7 +105,7 @@ If a symbol is on the final cell it might be the final so assume string is accep
 Also note that the documented input format is CNF, according to the specifications provided,
 we could input a language in any format. But we tried to go the extra mile and make it better. 
 
-##Refferences
+## Refferences
 [1] Lange, Martin, and Hans Leiß. "To CNF or Not to CNF? An Efficient Yet Presentable
 Version of the CYK Algorithm." Thesis.Ludwig-Maximilians-Universit¨atM¨unchen,
 Germany, 2009. To CNF or Not to CNF? An Efficient Yet Presentable Version of the CYK
